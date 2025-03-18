@@ -92,7 +92,7 @@ export default function ChatApp() {
 
     return (
         <div className="flex flex-col items-center justify-center  ">
-            <div className="w-full md:max-w-7xl max-w-lg bg-white shadow-lg rounded-xl overflow-hidden border border-gray-200 ">
+            <div className=" md:w-screen max-w-lg bg-white shadow-lg rounded-xl overflow-hidden border border-gray-200 ">
                 {/* Header */}
                 <div className="bg-gradient-to-r from-blue-600 to-blue-800 p-4 flex items-center justify-between">
                     <div className="flex items-center">
@@ -200,7 +200,7 @@ export default function ChatApp() {
                             Someone is typing...
                         </div>
                     )}
-                    <div className="flex items-center">
+                    <div className="flex items-center  ">
                         <button 
                             className="p-2 rounded-full text-gray-500 hover:bg-gray-100 transition mr-1"
                             onClick={() => setShowEmojis(!showEmojis)}
